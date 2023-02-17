@@ -5,7 +5,14 @@
     "rootDir": "src",
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "sourceMap": true,                           /* Skip type checking all .d.ts files. */
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"],
+      "@/tests/*": ["../tests/*"],
+    }                    /* Skip type checking all .d.ts files. */
   },
   "include": ["src"]
 }
