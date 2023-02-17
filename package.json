@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/fernando-stteffen/boilerAdvanced/issues"
   },
-  "homepage": "https://github.com/fernando-stteffen/boilerAdvanced#readme"
+  "homepage": "https://github.com/fernando-stteffen/boilerAdvanced#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
 }
